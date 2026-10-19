@@ -1,0 +1,8 @@
+[
+  {"id":"clip-01","video_id":"fictional-session-a","title":"Simulated clinic orientation","start":0,"text":"A fictional orientation introduces the clinic reception desk, appointment calendar, and training-room layout."},
+  {"id":"clip-02","video_id":"fictional-session-a","title":"Appointment intake demonstration","start":185,"text":"A simulated intake interview shows staff recording a fictional appointment request and confirming the appointment schedule."},
+  {"id":"clip-03","video_id":"fictional-session-a","title":"Training documentation discussion","start":300,"text":"A fictional presenter discusses consent documentation as a training topic. No real forms, participants, or patient records are included."},
+  {"id":"clip-04","video_id":"fictional-session-b","title":"Research seminar organization","start":635,"text":"A simulated research seminar reviews agenda planning, presentation slides, and audience questions."},
+  {"id":"clip-05","video_id":"fictional-session-b","title":"Transcript indexing walkthrough","start":945,"text":"A fictional technical walkthrough demonstrates transcript indexing, keyword retrieval, source identifiers, and timestamp navigation."},
+  {"id":"clip-06","video_id":"fictional-session-b","title":"Appointment calendar exercise","start":1210,"text":"A synthetic appointment calendar exercise compares morning and afternoon slots for a fictional clinic training session."}
+]
