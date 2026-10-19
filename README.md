@@ -4,6 +4,23 @@ Three runnable software projects covering retrieval backends, graph traversal, r
 
 **Python 3.10+ · Zero runtime dependencies · Browser UI + JSON APIs · Fictional data · Offline**
 
+## For software engineering reviewers
+
+Start with the clinical transcript search tab to follow a complete browser → HTTP API → retrieval → results flow. The other tabs expose graph traversal and ranking evaluation through the same backend. This small application demonstrates Python and JavaScript development, request validation, responsive interfaces, API integration, and automated tests.
+
+| Area | Evidence in this repository |
+| --- | --- |
+| Backend / HTTP APIs | [Route handling and JSON errors](src/retrieval_portfolio/server.py), bounded requests, independently testable business logic. |
+| Frontend / UI | [Vanilla JavaScript interface](src/retrieval_portfolio/index.html), responsive layout, labeled forms, live results, and text-safe rendering. |
+| Data processing | [Ranking metrics and aggregation](src/retrieval_portfolio/evaluation.py), validated evaluator inputs, and per-query results. |
+| Verification | [Algorithm and HTTP integration tests](tests/test_portfolio.py), Python packaging, and a local launch command. |
+
+The frontend uses JavaScript/HTML/CSS; the backend uses Python's standard library. This repository does not implement React, FastAPI, PostgreSQL, user authentication/authorization, or a cloud deployment. Input validation and safe rendering are specific protections, not a claim that this local demo is a secure production service.
+
+### Related collaborative application
+
+The public [MU-Data-Science Clinical-Video-Retrieval](https://github.com/MU-Data-Science/Clinical-Video-Retrieval) project provides a separate example of a Flask web application integrating keyword/vector search, reranking, and timestamped video previews. [Commits attributed to Zhandi149](https://github.com/MU-Data-Science/Clinical-Video-Retrieval/commits/main/?author=Zhandi149) provide evidence of my contributions. It is an organization-owned collaborative project; this portfolio repository contains standalone demonstrations rather than a copy of that system.
+
 ## Explore the projects
 
 | Project | What a reviewer can try | Engineering demonstrated |
